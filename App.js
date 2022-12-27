@@ -34,15 +34,18 @@ home.addEventListener("click",()=>{
 })
 
 whatsapp.addEventListener("click",()=>{
+    //alert("welcome to whatsapp");
     document.querySelector(".whatsapp").style.display="block";
 })
 youtub.addEventListener("click",()=>{
+    //alert("hy");
     document.querySelector(".youtub").style.display="block";
 })
 wikipedia.addEventListener("click",()=>{
     document.querySelector(".wikipedia").style.display="block";
 })
 facebook.addEventListener("click",()=>{
+   // alert("hallo khushbu singh parihar welcome to facebook ")
     document.querySelector(".facebook").style.display="block";
 })
 contact.addEventListener("click",()=>{
@@ -56,7 +59,7 @@ gallary.addEventListener("click",()=>{
 var main=document.querySelector("#main");
 var vl2=document.querySelector("#v2");
 vl2.addEventListener("click",()=>{
-    alert('hy');
+    //alert('hy');
     document.querySelector("#play1").style.display="none";
     document.querySelector("#play2").style.display="block";
     document.querySelector("#play3").style.display="none";
@@ -70,25 +73,24 @@ var img5=document.querySelector("#img5");
 img1.addEventListener("click",()=>{
    
     imgdisplay.src=img1.src;
-    // document.querySelector(".display").style.background="url(image1.jpeg)no-repeat";
-    // document.querySelector(".display").style.background.size="100%";
+    document.querySelector(".display").style.background="url(image1.jpeg)no-repeat";
+     document.querySelector(".display").style.background.size="100%";
 })
 img2.addEventListener("click",()=>{
     imgdisplay.src=img2.src;
-    // document.querySelector(".display").style.background="url(image2.jpeg)no-repeat";
-    // document.querySelector(".display").style.background.size="cover";
+     document.querySelector(".display").style.background="url(image2.jpeg)no-repeat";
+     document.querySelector(".display").style.background.size="cover";
 })
 img3.addEventListener("click",()=>{
     imgdisplay.src=img3.src;
-    // document.querySelector(".display").style.background="url(image3.jpeg)no-reapeat";
-    // document.querySelector(".display").style.background.size="100%";
+     document.querySelector(".display").style.background="url(image3.jpeg)no-reapeat";
+     document.querySelector(".display").style.background.size="100%";
 })
 img4.addEventListener("click",()=>{
     imgdisplay.src=img4.src;
-    // document.querySelector(".display").style.background="url(img4.jpeg)";
+     document.querySelector(".display").style.background="url(img4.jpg)";
 })
 img5.addEventListener("click",()=>{
     imgdisplay.src=img5.src
-    // document.querySelector(".display").style.background="url(img5.jpeg)";
+     document.querySelector(".display").style.background="url(img5.jpeg)";
 })
-
