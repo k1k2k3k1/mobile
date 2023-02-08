@@ -3,9 +3,9 @@
    width: 480px;
    height: 800px;
    margin: auto;
-   background: url(https://1.bp.blogspot.com/-burYRO3oAuo/YQZuleqXXMI/AAAAAAABN5w/QBmmh13kgpkc_fwaKx3sX8XZxtQMJ15xgCLcBGAsYHQ/w360-h640/Chill%2Banime%2Blive%2Bwallpaper%2B3.gif) no-repeat;
+   background: url(https://cdn.pixabay.com/photo/2017/02/08/20/22/wave-2049985__340.jpg);
    background-size: 100%;
-   background-color: blueviolet;
+   background-color: rgb(21, 99, 39);
    border-radius: 11px;
    border: 2px solid #0e0d0d;
 }
@@ -181,7 +181,7 @@ button{
    top: 3.7%;
    width: 480px;
    height:710px;
-   background: url(contect/contect.jpeg)no-repeat;
+   background: url(contect/im.jpeg)no-repeat;
    background-size: 100%;
    display: none;
 }
